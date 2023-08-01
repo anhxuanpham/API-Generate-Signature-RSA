@@ -14,3 +14,7 @@
 {
     "signature": "TRziwp1cbL4Gd0b4bInrmLUSsBh7odM2sM3opAn9YSvByK/eV++ofkRcu9YZdEMBG2aPFnhsV1R4JPMwtAijFdyLp376E0iSQW7ArsCJOPalOU0yDlS5I6wXSb70FosePMqnuUoA0+lPJqz981CB2rnomyx0V5+JEiCfW5laxYq1w2G9GLu3BealmqkoxTQdwUyQXkDHSjtBntPc81T3P0aQdIxYbJ2gQVjJA4oJGV06RlMxGUf8ODGqWMikE9J5FBNL7jUlA4C0Qljh+Za14v4wDs8mR0/7bk8ZivZS8OJGPKCE2CmQe/uvp6BvjeSp1KgQ17vlA6l53u5gLjICOQ=="
 }
+
+
+# Docker
+docker-compose up --build -d
