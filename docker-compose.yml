@@ -1,0 +1,18 @@
+
+version: '3'
+services:
+    app:
+      build:
+        context: .
+        dockerfile: Dockerfile
+      expose:
+        - 8080
+
+    nginx:
+      build:
+        context: .
+        dockerfile: Dockerfile.nginx
+      ports:
+        - 80:80
+      depends_on:
+        - app
